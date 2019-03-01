@@ -41,7 +41,7 @@ function loadStart() {
 function fileComplete(progress, cacheKey, success, totalLoaded, totalFiles) {
 
 	text.setText("File Complete: " + progress + "% - " + totalLoaded + " out of " + totalFiles);
-
+//
 }
 
 function loadComplete() {
